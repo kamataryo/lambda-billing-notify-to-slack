@@ -1,0 +1,21 @@
+{
+  "name": "lambda-billing-notify-to-slack",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "dependencies": {
+    "aws-sdk": "^2.140.0",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "prettier": "^1.7.4",
+    "prettier-eslint": "^8.2.1"
+  },
+  "scripts": {
+    "build": "./.bin/build.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kamataryo",
+  "license": "MIT"
+}
